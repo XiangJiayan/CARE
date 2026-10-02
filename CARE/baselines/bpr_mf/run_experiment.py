@@ -1,0 +1,12 @@
+"""One-click PyCharm entry point for BPR-MF."""
+from config import (
+    BATCH_SIZE, CUTOFFS, DEVICE, EMBEDDING_DIM, EPOCHS, LEARNING_RATE,
+    OUTPUT_DIR, SPLIT_SEED, TRAIN_SEEDS, WEIGHT_DECAY, WORKSPACE_DIR,
+)
+from run_bpr_mf import run
+
+
+if __name__ == "__main__":
+    run(WORKSPACE_DIR, OUTPUT_DIR, SPLIT_SEED, TRAIN_SEEDS, CUTOFFS,
+        EMBEDDING_DIM, LEARNING_RATE, WEIGHT_DECAY, EPOCHS, BATCH_SIZE, DEVICE)
+
