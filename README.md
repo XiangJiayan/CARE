@@ -1,6 +1,6 @@
 # CARE source code
 
-This package contains the CARE implementation and the following baselines:
+This anonymous package contains the CARE implementation and the following baselines:
 
 - Popularity
 - TF-IDF
@@ -11,6 +11,8 @@ This package contains the CARE implementation and the following baselines:
 - MPGCF
 - TSSGCF
 - ST5-TIGER
+- DIGER
+- GSR_REC
 
 ## Setup
 
