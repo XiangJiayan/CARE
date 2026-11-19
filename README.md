@@ -12,7 +12,7 @@ This anonymous package contains the CARE implementation and the following baseli
 - TSSGCF
 - ST5-TIGER
 - DIGER
-- GSR_REC
+- GSR
 
 ## Setup
 
